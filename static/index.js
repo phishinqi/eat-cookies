@@ -411,7 +411,7 @@ function showGameScoreLayer() {
     l.className = l.className.replace(/bgc\d/, 'bgc' + c);
     document.getElementById('GameScoreLayer-text').innerHTML = hide ? '' : "<span style='color:red;'>" + shareText(_gameScore) + "</span>";
     let score_text = '您坚持了 ';
-    score_text += "<span style='color:red;'>" + (deviation_time / 1000).toFixed(2) + "</span>" + ' 秒哦！<br>您的得分为 ';
+    score_text += "<span style='color:red;'>" + (deviation_time / 1000).toFixed(2) + "</span>" + ' 秒喵！<br>您的得分为 ';
     score_text += "<span style='color:red;'>" + _gameScore + "</span>";
     score_text += '<br>您平均每秒点击了 ';
     score_text += "<span style='color:red;'>" + (_gameScore * 1000 / deviation_time).toFixed(2);
